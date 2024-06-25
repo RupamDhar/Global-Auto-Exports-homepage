@@ -50,7 +50,7 @@
 .languages {
     z-index: 99;
     position: absolute;
-    top: 40px;
+    top: 0px;
     padding: 0 20px;
     width: 150px;
     height: 80px;
@@ -130,4 +130,11 @@
 .community-btn:hover {
     transform: translateY(-3px);
     box-shadow: 0 5px 10px rgb(201, 201, 201);
+}
+
+.hide {
+    display: none;
+}
+.show {
+    display: inline;
 }
