@@ -1,0 +1,35 @@
+.option-section {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0 70px 0;
+    height: 145px;
+}
+.options {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.options:hover > .numbering {
+    background-color: var(--primary-green);
+    color: white;
+}
+.numbering {
+    margin: 10px 0 45px 0;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: all 0.2s ease-in-out;
+}
+.context-title {
+    font-size: 14px;
+    font-weight: 600;
+}
+.context-text {
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--secondary-text);
+}

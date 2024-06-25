@@ -1,0 +1,133 @@
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    height: 45px;
+    font-family: "IBM Plex Sans";
+    border-bottom: 1px solid rgb(236, 236, 236);
+}
+
+.main-contacts {
+    display: flex;
+    gap: 15px;
+}
+
+.contact-svg {
+    height: 16px;
+    margin-right: 12px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    font-size: 13px;
+}
+
+.contact-title {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 500;
+    color: grey;
+}
+
+.contact-info {
+    color: rgb(73, 73, 73);
+    font-weight: bold;
+}
+
+.language-section {
+    position: relative;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.selected-language:hover + .languages {
+    display: flex;
+    top: 30px;
+}
+
+.languages {
+    z-index: 99;
+    position: absolute;
+    top: 40px;
+    padding: 0 20px;
+    width: 150px;
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 5px;
+    background-color: white;
+    transition: all 0.3s ease-in-out;
+    display: none;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.social {
+    height: 16px;
+    fill: grey;
+}
+
+.social:hover {
+    fill: black;
+}
+
+.socials>a {
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    z-index: 9999;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 120px;
+    background-color: rgba(255, 255, 255, 0.521);
+}
+
+.logo {
+    height: 40%;
+}
+
+.nav-option-section {
+    display: flex;
+}
+
+.nav-option {
+    display: flex;
+    align-items: center;
+    padding: 15px 13px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+}
+
+.primary-btn {
+    position: relative;
+    padding: 18px 17px;
+    background-color: var(--primary-green);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    /* Combine all transition properties */
+    cursor: pointer;
+}
+
+.community-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 10px rgb(201, 201, 201);
+}

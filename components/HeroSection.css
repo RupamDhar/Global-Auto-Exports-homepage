@@ -1,0 +1,49 @@
+.hero-section {
+    position: relative;
+    padding: 140px;
+    width: 100%;
+    height: 580px;
+    box-sizing: border-box;
+  }
+  .hero-image {
+    z-index: -99;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .hero-section-info {
+    z-index: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .hero-section-title {
+    font-size: 46px;
+    color: white;
+    line-height: 60px;
+  }
+  .hero-section-text {
+    font-size: 17px;
+    color: white;
+  }
+  .explore-btn {
+    padding: 15px 35px;
+  }
+  .explore-btn:hover {
+    transform: translateY(-3px);
+    background-color: gray;
+    gap: 10px;
+  }
+  .hero-section-interact {
+    display: flex;
+    align-items: center;
+  }
+  .hotline-no {
+    margin-left: 15px;
+    font-weight: 600;
+    color: #3ead3c;
+  }

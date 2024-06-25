@@ -1,0 +1,59 @@
+.why-us-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0 75px 0;
+    height: 245px;
+    /* background-color: red; */
+}
+
+.why-us-info {
+    padding: 10px;
+    width: 585px;
+    height: 100%;
+    /* background-color: antiquewhite; */
+}
+.why-us-pre-title {
+    margin-bottom: 12px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.why-us-title {
+    margin-bottom: 14px;
+    line-height: 50px;
+    font-size: 38px;
+    font-weight: 600;
+}
+.why-us-text {
+    color: var(--secondary-text);
+}
+
+
+
+.our-progress {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    width: 585px;
+    height: 100%;
+    /* background-color: antiquewhite; */
+}
+.progress {
+    width: 100%;
+}
+.progress-title {
+    margin-bottom: 12px;
+}
+.progress-bar {
+    width: 100%;
+    height: 8px;
+    border-radius: 100px;
+    background-color: #eeeeee;
+    overflow: hidden;
+}
+.progression {
+    height: 100%;
+    border-radius: 3px;
+    background-color: var(--primary-green);
+}
